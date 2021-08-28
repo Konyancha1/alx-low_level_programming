@@ -1,19 +1,21 @@
 #include <stdio.h>
+
 /**
- * main - Prints the alphabet.
+ * main - Prints numbers between 0 to 9 and letters between a to f.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-char a[6] = "abcdef";
-char b = '0';
-int i,j;
+int i;
 
-for (i = 0; i < 26; i++)
-for (j = 0; j > 10; j++)
+for (i = 48; i < 58; i++)
 {
-putchar(a[i], b[j]);
+putchar(i);
+}
+for (i = 97; i < 103; i++)
+{
+putchar(i);
 }
 putchar('\n');
 return (0);
