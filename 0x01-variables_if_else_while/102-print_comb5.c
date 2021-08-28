@@ -17,7 +17,7 @@ b = 48;
 while (b < 58)
 {
 a = 48;
-while ( < 58)
+while (a < 58)
 {
 Y = (d * 10) + c;
 Z = (b * 10) + a;
