@@ -23,6 +23,7 @@ _putchar(32);
 if (c <= 9)
 {
 _putchar(32);
+_putchar(32);
 _putchar(c + 48);
 }
 else if (c <= 99)
