@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Prints the add of the Fibonacci numbers
  *
@@ -6,16 +7,19 @@
  */
 int main(void)
 {
-int i = 50;
-int f1 = 0, f2 = 1;
-int nextTerm;
-printf("%
-for (i = 3; i <= 48; i++)
+int i;
+long int x, y, nextTerm;
+
+x = 1;
+y = 2;
+printf("%ld, %ld", x, y);
+for (i = 0; i < 48; i++)
 {
-printf("%d, ", nextTerm);
-f1 = f2;
-f2 = nextTerm;
-nextTerm = f1 + f2;
+nextTerm = x + y;
+printf(", %ld", nextTerm);
+x = y;
+y = nextTerm;
 }
+printf("\n");
 return (0);
 }
