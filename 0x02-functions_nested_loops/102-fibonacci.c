@@ -6,9 +6,10 @@
  */
 int main(void)
 {
-int i;
+int i = 50;
 int f1 = 0, f2 = 1;
 int nextTerm;
+printf("%
 for (i = 3; i <= 48; i++)
 {
 printf("%d, ", nextTerm);
