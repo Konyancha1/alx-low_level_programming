@@ -4,27 +4,19 @@
  *
  * Return: Always 0.
  */
-int main(void)
+void print_alphabet_x10(void)
 {
-  print_alphabet_x10();
-  return (0);
+  int a, b;
+
+  for (a = 0; a <= 9; a++)
+    {
+      for (b = 97; b <= 122; b++)
+	{
+	  _putchar(b);
+	}
+      _putchar('\n');
+    }
 }
-
-void print_alphabet_x10(void);
-{ 
-  int a, b)
-
- for (a = 0; a < 11; a++)
- {
-   for (b = 97; b <= 122; b++)
-     {
-       _putchar(b);
-     }
-   _putchar('\n')
-     }
-}
-
-			  
 
   
   
