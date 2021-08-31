@@ -1,0 +1,24 @@
+#include <stdio.h>
+/**
+ * main - Prints the add of the Fibonacci numbers
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+int i;
+int f1 = 1, f2 = 2;
+int nextTerm = f1 + f2;
+ for (i = 3;i <= 50; i++)
+   {
+     printf("%d, ", nextTerm);
+     f1 = f2;
+     f2 = nextTerm;
+     nextTerm = f1 + f2;
+   }
+ return (0);
+}
+
+     
+
+ 
