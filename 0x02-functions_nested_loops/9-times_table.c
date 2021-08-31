@@ -1,14 +1,9 @@
 #include "main.h"
 /**
- * main - check the code for ALX School students.
+ * times_table - Prints the 9 times table
  *
- * Return: Always 0.
+ * Return: no return
  */
-int main(void)
-{
-times_table();
-return (0);
-}
 void times_table(void)
 {
 int a, b, c;
