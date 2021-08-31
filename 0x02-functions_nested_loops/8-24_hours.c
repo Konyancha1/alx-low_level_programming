@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - check the code for ALX School students.
+ * jack_bauer - Prints the minutes of a day
  *
- * Return: Always 0.
+ * Return: no return
  */
 int main(void)
 {
