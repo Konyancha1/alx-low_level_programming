@@ -8,7 +8,7 @@ int main(void)
 {
 int i;
 int f1 = 0, f2 = 1;
-int nextTerm = 0;
+int nextTerm;
 for (i = 3; i < 50; i++)
 {
 printf("%d, ", nextTerm);
