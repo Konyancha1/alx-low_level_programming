@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-int a[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
+  int a[] = {95, 112, 117, 116, 99, 97, 114};
 int count, sz;
 
 sz = sizeof(a) / sizeof(int);
