@@ -7,18 +7,14 @@
 int main(void)
 {
 int i;
-int f1 = 1, f2 = 2;
+int f1 = 0, f2 = 1;
 int nextTerm = f1 + f2;
- for (i = 3;i <= 50; i++)
-   {
-     printf("%d, ", nextTerm);
-     f1 = f2;
-     f2 = nextTerm;
-     nextTerm = f1 + f2;
-   }
- return (0);
+for (i = 3;i <= 50; i++)
+{
+printf("%d, ", nextTerm);
+f1 = f2;
+f2 = nextTerm;
+nextTerm = f1 + f2;
 }
-
-     
-
- 
+return (0);
+}
