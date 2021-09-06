@@ -11,8 +11,8 @@ int size = 0, a;
 while (size >= 0)
 {
 if (str[size] == '\0')
-_putchar('\n');
 break;
+size++;
 }
 if (size % 2 == 1)
 a = size / 2;
