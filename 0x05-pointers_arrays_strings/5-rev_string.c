@@ -9,9 +9,9 @@ void rev_string(char *s)
 int size = 0, a, b;
 char *x, y;
 
-while(size >= 0)
+while (size >= 0)
 {
-if(s[size] == '\0')
+if (s[size] == '\0')
 break;
 size++;
 }
