@@ -28,7 +28,7 @@ if (a == NULL)
 free(a);
 return (NULL);
 }
-for (i = j = k = 0; ia < c; j++, k++)
+for (i = j = k = 0; k < c; j++, k++)
 {
 if (av[i][j] == '\0')
 {
