@@ -29,7 +29,7 @@ return (NULL);
 for (k = 0; k < i; k++)
 a[k] = s1[k];
 l = j;
-for (j = 0; j <= l; j++)
+for (j = 0; j <= l; k++, j++)
 a[k] = s2[j];
 return (a);
 }
