@@ -28,7 +28,7 @@ lsa = ls1 + n;
 a = malloc(lsa + 1);
 if (a == NULL)
 return(NULL);
-for (i = 0; i = lsa; i++)
+for (i = 0; i < lsa; i++)
 if (i < ls1)
 a[i] = s1[i];
 else
