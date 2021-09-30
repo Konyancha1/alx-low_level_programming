@@ -15,9 +15,9 @@ char *s;
 va_list (ap, n);
 for (i = 0; i < n; i++)
 {
-str = va_arg(ap, char *);
-if (str)
-printf("%s", str);
+s = va_arg(ap, char *);
+if (s)
+printf("%s", s);
 else
 printf("(nil)");
 if (i < n - 1)
