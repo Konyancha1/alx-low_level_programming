@@ -25,5 +25,5 @@ if (separator)
 printf("%s", separator);
 }
 printf("\n");
-va_end (ap);
+va_end(ap);
 }
