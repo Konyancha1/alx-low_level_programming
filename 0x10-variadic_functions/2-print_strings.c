@@ -12,7 +12,7 @@ va_list ap;
 unsigned int i;
 char *s;
 
-va_list (ap, n);
+va_start(ap, n);
 for (i = 0; i < n; i++)
 {
 s = va_arg(ap, char *);
