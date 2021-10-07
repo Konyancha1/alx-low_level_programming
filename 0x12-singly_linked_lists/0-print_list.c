@@ -2,7 +2,7 @@
 /**
  * print_list - prints all the elements of a list_t list
  * @h: singly inked list
- * ReturnL number of elements in the liat.
+ * Return: number of elements in the list.
  */
 size_t print_list(const list_t *h)
 {
@@ -20,4 +20,3 @@ number_elements++;
 }
 return (number_elements);
 }
-  
