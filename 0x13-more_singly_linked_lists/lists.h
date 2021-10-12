@@ -14,8 +14,8 @@
  */
 typedef struct listint_s
 {
-  int n;
-  struct listint_s *next;
+int n;
+struct listint_s *next;
 } listint_t;
 
 /**
@@ -27,8 +27,8 @@ typedef struct listint_s
  */
 typedef struct listp_s
 {
-  void *p;
-  struct listp_s *next;
+void *p;
+struct listp_s *next;
 } listp_t;
 
 int _putchar(char c);
