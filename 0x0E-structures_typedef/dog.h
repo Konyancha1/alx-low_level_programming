@@ -15,11 +15,6 @@ char *name;
 float age;
 char *owner;
 };
-<<<<<<< HEAD
-
 void init_dog(struct dog *d, char *name, float age, char *owner);
-
-=======
-void init_dog(struct dog *d, char *name, float age, char *owner);
->>>>>>> 370cdba7012f0233b8bdad428c098dc1cb4130bb
+void print_dog(struct dog *d);
 #endif
